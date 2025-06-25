@@ -1,6 +1,4 @@
-import './index.css'; 
-
-const CartWidget = () => {
+export function CartWidget (){
   return (
     <div className="cart-widget">
       <span role="img" aria-label="shopping cart" className="cart-icon">🛒</span>
@@ -8,5 +6,3 @@ const CartWidget = () => {
     </div>
   );
 };
-
-export default CartWidget;

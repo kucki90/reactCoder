@@ -1,12 +1,11 @@
-import './index.css'; 
+import { NavBar } from "./components/NavBar";
+import { ItemListContainer } from "./components/ItemListContainer";
 
-const App = () => {
+export function App () {
   return (
     <div className="app-container">
-      <NavBar /> {}
+      <NavBar />
       <ItemListContainer greeting="¡Bienvenido a nuestra Tienda Online!" /> {}
     </div>
   );
 }; 
-
-export default App;

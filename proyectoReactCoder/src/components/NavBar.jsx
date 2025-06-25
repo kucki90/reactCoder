@@ -1,6 +1,6 @@
-import './index.css'; 
+import { CartWidget } from "./CartWidget"
 
-const NavBar = () => {
+export function NavBar() {
   return (
     <nav className="nav-bar">
       <div className="nav-title">Familia JyC</div>
@@ -9,9 +9,7 @@ const NavBar = () => {
         <li><a href="#" className="nav-link">Productos</a></li>
         <li><a href="#" className="nav-link">Contacto</a></li>
       </ul>
-      <CartWidget /> 
+      <CartWidget /> {}
     </nav>
   );
 };
-
-export default NavBar;
