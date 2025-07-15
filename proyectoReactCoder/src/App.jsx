@@ -1,11 +1,16 @@
-import { NavBar } from "./components/NavBar";
-import { ItemListContainer } from "./components/ItemListContainer";
+import { Header } from "./components/Header.jsx"
+import { Footer } from "./components/Footer.jsx"
+import { Main } from "./components/Main.jsx"
 
 export function App () {
   return (
     <div className="app-container">
-      <NavBar />
-      <ItemListContainer greeting="¡Bienvenido a nuestra Tienda Online!" /> {}
+      <Header />
+      <Main />
+      <Footer />
+      
+      {/* <NavBar />
+      <ItemListContainer /> */} 
     </div>
   );
 }; 
